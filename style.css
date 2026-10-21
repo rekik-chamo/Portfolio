@@ -26,4 +26,29 @@ p{
     margin-top: 10px;
 }
 h2{
-    color: hsl(188, 95%, 51%);}
+    color: hsl(188, 95%, 51%);
+    margin-left: 10px;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(3 , 250px);
+    column-gap: 20px;
+    justify-content: center;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    border-radius: 10%;
+    
+}
+#projectImg{
+    width: 200px;
+    height: 200px;
+    margin-top: 6px;
+    
+}
+h3{
+    margin-top: 10px;
+}
