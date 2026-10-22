@@ -43,6 +43,10 @@ h2{
     border-radius: 10%;
     
 }
+.project-card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
 #projectImg{
     width: 200px;
     height: 200px;
