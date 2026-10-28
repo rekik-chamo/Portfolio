@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    background: linear-gradient(90deg, #00244c 0%, #000000 53%, #002e5c 100%);
     color: white;
     
 }
@@ -14,6 +15,8 @@ header{
     height: 150px;
     border: 2px hsl(201, 100%, 50%) solid;
     border-radius: 50%;
+    box-shadow: 0 0 10px 5px hsl(191, 100%, 54%);
+    
 
 }
 #me{
@@ -29,6 +32,22 @@ h1{
 p{
     margin-top: 10px;
 }
+nav a{
+
+    border: 1px lightblue solid;
+    border-radius: 15%;
+    font-size: 1.2rem;
+    padding: 2px;
+    min-width: 70px;
+    margin-inline: 2px;
+   background: linear-gradient(90deg, #032d5c 35%, #1b85ee 76%);
+    text-decoration: none;
+     color: hsl(188, 95%, 51%);
+}
+nav a:hover{
+    background: linear-gradient(90deg, hsl(212, 94%, 9%) 35%, hsl(210, 86%, 42%) 76%);
+}
+
 h2{
     color: hsl(188, 95%, 51%);
     margin-left: 10px;
