@@ -6,3 +6,4 @@ themeBtn.addEventListener("click", () => {
     themeBtn.textContent = isLight ? "Dark theme" : "Light theme";
     themeBtn.style.background = isLight ? "" : "whiteSmoke";
 });
+
